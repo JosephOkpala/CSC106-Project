@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* colours */
+:root {
+    --grey: #D9D9D9;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/* general styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--grey);
+    font-family: "Cinzel", serif;
+}
+
+/* Entire products section */
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Individual product */
+.card {
+    background-color: var(--white);
+}
+.img {
+    width: 247px;
+    height: 356px;
+}
+
+.cart {
+    border: 2px solid green;
+    background-color: var(--black);
+}
