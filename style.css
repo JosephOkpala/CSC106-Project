@@ -16,6 +16,67 @@
     font-family: "Cinzel", serif;
 }
 
+/*          nav styles start           */
+.burgerMenu {
+  display: none;
+}
+
+.homeBG {
+  background: url("./COS106/Images/homeBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  z-index: -999;
+  opacity: 0.98;
+}
+
+.homeBG::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: -99;
+
+}
+
+.navbar {
+  height: 15vh;
+  /* z-index: 999; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1.2rem;
+}
+
+.nav-links a {
+  color: white;
+}
+
+.nav-links a:not(:last-child) {
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.nav-cart {
+  width: 2rem;
+}
+
+.hero{
+    display: grid;
+    place-items: center;
+    height: 85vh;
+    font-size: 5.2rem;
+
 /* Entire products section */
 section {
     display: grid;
@@ -37,4 +98,8 @@ section {
 .cart {
     border: 2px solid green;
     background-color: var(--black);
+
+a {
+  text-decoration: none;
+}
 }
