@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* colours */
+:root {
+  --grey: #d9d9d9;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+/* general styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--grey);
+  font-family: "Cinzel", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*          nav styles start           */
+.burgerMenu {
+  display: none;
+}
+
+.homeBG {
+  background: url("./COS106/Images/homeBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  z-index: -999;
+  opacity: 0.98;
+}
+
+.homeBG::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: -99;
+}
+
+.navbar {
+  height: 15vh;
+  /* z-index: 999; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1.2rem;
+}
+
+.nav-links a {
+  color: white;
+}
+
+.nav-links a:not(:last-child) {
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.nav-cart {
+  width: 2rem;
+}
+
+.hero {
+  display: grid;
+  place-items: center;
+  height: 85vh;
+  font-size: 5.2rem;
+}
+/* Entire products section */
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Individual product */
+.card {
+  background-color: var(--white);
+}
+.img {
+  width: 247px;
+  height: 356px;
+}
+
+.cart {
+  border: 2px solid green;
+  background-color: var(--black);
+}
