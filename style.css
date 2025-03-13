@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f19c02f8ca57b44fb1ba8e3b7ecb340b0c69d13b
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* colours */
@@ -27,6 +30,7 @@
     font-family: "Cinzel", serif;
 }
 
+<<<<<<< HEAD
 /* Entire products section */
 section {
     display: grid;
@@ -46,6 +50,8 @@ a {
   text-decoration: none;
 }
 
+=======
+>>>>>>> f19c02f8ca57b44fb1ba8e3b7ecb340b0c69d13b
 /*          nav styles start           */
 .burgerMenu {
   display: none;
@@ -100,6 +106,7 @@ nav {
   width: 2rem;
 }
 
+<<<<<<< HEAD
 .hero {
   display: grid;
   place-items: center;
@@ -114,11 +121,29 @@ section {
   gap: 1rem;
   padding: 1rem;
 >>>>>>> 5881174230415d355265e7781429e0ed9d3cd53e
+=======
+.hero{
+    display: grid;
+    place-items: center;
+    height: 85vh;
+    font-size: 5.2rem;
+
+/* Entire products section */
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+>>>>>>> f19c02f8ca57b44fb1ba8e3b7ecb340b0c69d13b
 }
 
 /* Individual product */
 .card {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f19c02f8ca57b44fb1ba8e3b7ecb340b0c69d13b
     background-color: var(--white);
 }
 .img {
@@ -129,6 +154,7 @@ section {
 .cart {
     border: 2px solid green;
     background-color: var(--black);
+<<<<<<< HEAD
 }
 =======
   background-color: var(--white);
@@ -143,3 +169,10 @@ section {
   background-color: var(--black);
 }
 >>>>>>> 5881174230415d355265e7781429e0ed9d3cd53e
+=======
+
+a {
+  text-decoration: none;
+}
+}
+>>>>>>> f19c02f8ca57b44fb1ba8e3b7ecb340b0c69d13b
