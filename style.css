@@ -101,10 +101,9 @@ nav {
   width: 80%; 
   margin: auto;
 }
-.productcard {
-  width: 80%;
 
 .productcard {
+  width: 80%;
   background-color: var(--grey);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
