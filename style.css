@@ -92,6 +92,9 @@ nav {
 }
 .productcard {
   width: 80%;
+
+.productcard {
+  background-color: var(--grey);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
@@ -115,6 +118,15 @@ nav {
   border: 3px solid blue;
   border-radius: 20px;
   margin: 0.5rem;
+  width: 20rem;
+  border: 4px solid red;
+  padding: 2rem;
+}
+
+.img {
+  width: 247px;
+  height: 356px;
+  border: 3px solid blue;
 }
 
 .card p {
@@ -129,4 +141,8 @@ nav {
 .carticon {
   border: 2px solid orange;
   height: 2rem;
+}
+
+.carticon {
+  border: 2px solid orange;
 }
