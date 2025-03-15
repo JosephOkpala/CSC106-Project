@@ -124,6 +124,8 @@ nav {
   border: 2px solid green;
   background-color: var(--black);
   height: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .carticon {
