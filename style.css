@@ -156,3 +156,12 @@ nav {
 .carticon {
   border: 2px solid orange;
 }
+.pproductlinks{
+  display: flex;
+}
+.pproductlinks img{
+height: 40%;
+padding-left: 10px;
+padding-top: 10px;
+background-color: ;
+}
