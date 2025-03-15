@@ -2,7 +2,7 @@
 
 /* colours */
 :root {
-  /* --grey: #d9d9d9; */
+  --grey: #d9d9d9;
   --white: #ffffff;
   --black: #000000;
 }
@@ -90,6 +90,7 @@ nav {
   height: 85vh;
   font-size: 5.2rem;
 }
+<<<<<<< HEAD
 /* Entire products section */
 
 .entire {
@@ -165,3 +166,5 @@ padding-left: 10px;
 padding-top: 10px;
 background-color: ;
 }
+=======
+>>>>>>> 178ebebb34a06301aba4ba1270910e69f7c5b30c
