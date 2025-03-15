@@ -2,7 +2,7 @@
 
 /* colours */
 :root {
-  /* --grey: #d9d9d9; */
+  --grey: #d9d9d9;
   --white: #ffffff;
   --black: #000000;
 }
@@ -89,70 +89,4 @@ nav {
   place-items: center;
   height: 85vh;
   font-size: 5.2rem;
-}
-/* Entire products section */
-
-.entire {
-  background-color: var(--grey);
-  padding: 2rem;
-}
-
-.entire h1 {
-  width: 80%; 
-  margin: auto;
-}
-
-.productcard {
-  width: 80%;
-  background-color: var(--grey);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
-  margin: auto;
-}
-
-/* Individual product */
-.card {
-  background-color: var(--white);
-  width: 15rem;
-  border: 4px solid red;
-  padding: 0.5rem 1.5rem;
-  margin: auto;
-}
-
-.img {
-  width: 150px;
-  height: 250px;
-  border: 3px solid blue;
-  border-radius: 20px;
-  margin: 0.5rem;
-  width: 20rem;
-  border: 4px solid red;
-  padding: 2rem;
-}
-
-.img {
-  width: 247px;
-  height: 356px;
-  border: 3px solid blue;
-}
-
-.card p {
-  font-size: 0.5rem;
-}
-.cart {
-  border: 2px solid green;
-  background-color: var(--black);
-  height: 2rem;
-}
-
-.carticon {
-  border: 2px solid orange;
-  height: 2rem;
-}
-
-.carticon {
-  border: 2px solid orange;
 }
