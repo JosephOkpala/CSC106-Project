@@ -1,0 +1,53 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* colours */
+:root {
+  --grey: #d9d9d9;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+/* general styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cinzel", serif;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  /*          nav styles start           */
+  .burgerMenu {
+    display: none;
+  }
+  
+  .navbar {
+    height: 15vh;
+    /* z-index: 999; */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1.2rem;
+  }
+  
+  .nav-links a {
+    color: var(--black);
+  }
+  
+  .nav-links a:not(:last-child) {
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .nav-cart {
+    width: 2rem;
+  }
