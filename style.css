@@ -113,110 +113,40 @@ section{
   line-height: 1.2;
   margin-bottom: 2rem;
 }
-.home-text p{
-  font-size: var(--p-font);
-  font-weight: 500;
-  color: var(--second-color);
-  line-height: 32px;
-  margin-bottom: 2.3rem;
-}
-.btn{
-  display: inline-block;
-  padding: 14px 26px;
-  /* background: var(--main-color); */
-  background: linear-gradient(to right, black,#fffbf6 );
-  box-shadow: 0 2px 15px rgba(82, 67, 72, 0.26);
-  color: var(--bg-color);
-  font-size: 15px;
-  font-weight: 600;
-  border-radius: 5rem;
-  transition: all .38s ease;
-}
-.btn:hover{
-  letter-spacing: 1px;
-  /* padding: 14px 36px; */
+/* Entire products section */
+
+<<<<<<<<< Temporary merge branch 1
+.entire {
+  background-color: var(--grey);
+  padding: 2rem;
 }
 
-/* product styling section */
-.main-text h2{
-	font-size: var(--h2-font);
-	margin-bottom: 10px;
+.entire h1 {
+  width: 80%; 
+  margin: auto;
 }
-.main-text p{
-	font-size: var(--p-font);
-	font-weight: 500;
-	color: var(--second-color);
-	line-height: 32px;
-}
-.container-box{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-	gap: 2rem;
-	align-items: center;
-	margin-top: 4rem;
-}
-.c-mainbx{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 1.4rem;
-	border-radius: 10px;
-	height: 90px;
-	background: var(--bg-color);
-	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-	transition: all .38s ease;
-}
-.container-text p{
-	font-size: var(--p-font);
-	font-weight: 500;
-}
-.c-mainbx:hover{
-	transform: translateX(10px);
-	cursor: pointer;
-}
+.productcard {
+  width: 80%;
 
-.product-content{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-	gap: 2rem;
-	align-items: center;
-	margin-top: 4rem;
-	cursor: pointer;
+.productcard {
+  background-color: var(--grey);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin: auto;
 }
-.row img{
-	width: 100%;
-	height: auto;
-	border-radius: 10px;
-}
-.row{
-	transition: all .38s ease;
-}
-.product-text{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 15px 0;
-}
-.product-left h4{
-	font-size: 20px;
-}
-.cart{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	/* padding: 15px 0; */
-	background: linear-gradient(to right,#302e29,#fffbf6);
-  box-shadow: 0 2px 15px rgba(94, 78, 83, 0.26);
-  border-radius: 5rem;
-  padding: 10px 22px;
-}
-.c-icons-left h4{
-	font-size:23px ;
-	/* justify-content: center; */
-}
-.c-icons-right i{
-	color: black;
-	font-size: 23px;
+=========
+>>>>>>>>> Temporary merge branch 2
+
+/* Individual product */
+.card {
+  background-color: var(--white);
+  width: 15rem;
+  border: 4px solid red;
+  padding: 0.5rem 1.5rem;
+  margin: auto;
 }
 .product-right h5{
 	color: var(--main-color);
