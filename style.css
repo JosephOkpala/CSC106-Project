@@ -167,7 +167,7 @@ width: 200px;
 padding-left: 10px;
 padding-top: 10px;
 align-content: center;
-/* object-fit: cover; */
+border: 2px solid red;
 }
 .pproductlinks p{
   font-size: 10px;
@@ -175,11 +175,31 @@ align-content: center;
 }
 .cmen img{
   height: 200px;
-  width: 180px;
-  object-fit: contain;
+  width: 130px;
+  object-fit: cover;
 }
 .swomen img{
-  width: 198px;
-  height: 210px;
+  width: 130px;
+  height: 200px;
+  object-fit: cover;
+}
+.shortwomen img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.fwomen img{
+  width: 210px;
+  height: 200px;
+  object-fit: cover;
+}
+.menf img{
+  width: 50px;
+  height: 200px;
+  object-fit: contain;
+}
+.womenA img{
+  width: 150px;
+  height: 200px;
   object-fit: contain;
 }
