@@ -72,53 +72,6 @@ span{
 }
 .h-icons{
   display: flex;
-<<<<<<< HEAD
-  margin: 10px;
-  align-content: center;
-}
-.pproductlinks img{
-height: 200px;
-width: 200px;
-padding-left: 10px;
-padding-top: 10px;
-align-content: center;
-border: 2px solid red;
-}
-.pproductlinks p{
-  font-size: 10px;
- text-align: center;
-}
-.cmen img{
-  height: 200px;
-  width: 130px;
-  object-fit: cover;
-}
-.swomen img{
-  width: 130px;
-  height: 200px;
-  object-fit: cover;
-}
-.shortwomen img{
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-}
-.fwomen img{
-  width: 210px;
-  height: 200px;
-  object-fit: cover;
-}
-.menf img{
-  width: 50px;
-  height: 200px;
-  object-fit: contain;
-}
-.womenA img{
-  width: 150px;
-  height: 200px;
-  object-fit: contain;
-}
-=======
   /* background: var(--main-color); */
   background: linear-gradient(to right,#302e29,#fffbf6);
   box-shadow: 0 2px 15px rgba(94, 78, 83, 0.26);
