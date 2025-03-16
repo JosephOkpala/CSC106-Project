@@ -5,51 +5,348 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>CSC 106 PROJECT</title>
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+     
   </head>
   <body>
-    <section class="homeBG">
-    <div class="navbar">
-      <nav>
-        <!-- the logo will be an image when we decide on what are using -->
-        <h1 class="logo">Logo</h1>
-        <img src="./COS 106/Images/icons/Menu.png" alt="" class="burgerMenu" />
-        <div class="nav-links">
-          <a href="#home" class="links">Home</a>
-          <a href="./product.html" class="links">Product</a>
-          <a href="#team" class="links">Team</a>
-          <a href="#events" class="links">Events</a>
-          <a href="#bookings" class="links">Bookings</a>
-        </div>
-        <img src="./COS106/Images/icons/shopping-cart.png" alt="" class="nav-cart" />
-      </nav>
+    <!-- header section -->
+    <header>
+      <a href="#" class="logo">The<span>Luxe Label</span></a>
+      <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="./product.html">Product</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="./event.html">Event</a></li>
+          <li><a href="#bookings">Bookings</a></li>
+      </ul>
+
+      <div class="h-icons">
+          <a href="#"><i class='bx bx-search'></i></a>
+          <a href="#"><i class='bx bx-cart'></i></a>
+          <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+  </header>
+
+   <!-- home section -->
+   <section class="home">
+    <div class="home-text">
+      <h1><span>Timeless style. Unmatched Luxury.<br></span></h1>
+      <h3>Discover premium fashion for men and women, curated for the mordern trendsetter</h3>
+      <p>Welcome to The Luxe Label-where sophistication meets contemporary fashion. <br> We bring you handpicked clothing and accessories designed for confidence, elegance, and effortless style.</p>
+      <a href="#" class="btn">Shop NOW</a>
     </div>
-    <h1 class="hero">Old Money Unleashed</h1>
-    </section>
-    <section class="pproductlinks">
-      <div class="cmen">
-        <img src="./COS106/Images/men1 1 (2).png" alt="">
-        <p><strong>Classic Men Wears</strong></p>
+
+    <div class="home-img">
+      <img src="./COS106/Images/homeBG.png " alt="">
+    </div>
+  
+  </section>
+
+   <!---product section--->
+	<section class="product" id="product">
+		<div class="main-text">
+			<h2>Products</h2>
+			<p>Consectetur numquam poro nemo veniam <br> eligendi rem adipisci quo modi.</p>
+		</div>
+
+		<div class="product-content">
+			<div class="row">
+				<!-- <img src="./COS 106/Images/gown/white short simple sleeveless gown.png"> -->
+        <img src="./COS106/Images/gown/white short simple sleeveless gown.png" alt="">
+				<div class="product-text">
+					<div class="product-left">
+						<h4>White short sleeve gown</h4>
+					</div>
+					<div class="product-right">
+						<h5>$380</h5>
+					</div>
+				</div>
+				<p>Female</p>
+        <div class="cart">
+        <div class="c-icons-left">
+          <h4>Add to cart</h4>
       </div>
-      <div class="swomen">
-        <img src="./COS106/Images/Group 14.png" alt="">
-        <p><strong>Women's Silk Dress</strong></p>
+      <div class="c-icons-right">
+        <a href="#"><i class='bx bx-cart'></i></a>
       </div>
-      <div class="fwomen">
-        <img src="./COS106/Images/Group 15.png" alt="">
-        <p><strong>Women's Full Set</strong></p>
+    </div>
+	
+			</div>
+
+			<div class="row">
+				<img src="./COS106/Images/gown/long sleeve short gown.png">
+				<div class="product-text">
+					<div class="product-left">
+						<h4>Off shoulder short qown</h4>
+					</div>
+					<div class="product-right">
+						<h5>$400</h5>
+					</div>
+				</div>
+				<p>Female</p>
+        <div class="cart">
+          <div class="c-icons-left">
+            <h4>Add to cart</h4>
+        </div>
+        <div class="c-icons-right">
+          <a href="#"><i class='bx bx-cart'></i></a>
+        </div>
       </div>
-      <div class="shortwomen">
-        <img src="./COS106/Images/Group 16.png" alt="">
-        <p><strong>Women short Dress</strong></p>
+				
+			</div>
+
+			<div class="row">
+				<img src="./COS106/Images/gown/white beautiful short gown.png">
+				<div class="product-text">
+					<div class="product-left">
+						<h4>White collared short gown</h4>
+					</div>
+					<div class="product-right">
+						<h5>$400</h5>
+					</div>
+				</div>
+				<p>Female</p>
+        <div class="cart">
+          <div class="c-icons-left">
+            <h4>Add to cart</h4>
+        </div>
+        <div class="c-icons-right">
+          <a href="#"><i class='bx bx-cart'></i></a>
+        </div>
       </div>
-      <div class="Menf">
-        <img src="./COS106/Images/Group 17.png" alt="">
-        <p><strong>Men's Full set</strong></p>
+				
+			</div>
+
+			<div class="row">
+				<img src="./COS106/Images/gown/white short simple sleeveless gown.png">
+				<div class="product-text">
+					<div class="product-left">
+						<h4>White short sleeve gown</h4>
+					</div>
+					<div class="product-right">
+						<h5>$380</h5>
+					</div>
+				</div>
+				<p>Female</p>
+        <div class="cart">
+          <div class="c-icons-left">
+            <h4>Add to cart</h4>
+        </div>
+        <div class="c-icons-right">
+          <a href="#"><i class='bx bx-cart'></i></a>
+        </div>
       </div>
-      <div class="womenA">
-        <img src="./COS106/Images/Group 18.png" alt="">
-        <p><strong>Women Accessories</strong></p>
+			
+			</div>
+		</div>
+    <br><br><br>
+
+
+    <div class="product-content">
+			<div class="row">
+				<!-- <img src="./COS 106/Images/gown/white short simple sleeveless gown.png"> -->
+        <img src="./COS106/Images/pants/female black and white stripes coloured pants.png" alt="">
+				<div class="product-text">
+					<div class="product-left">
+						<h4>White short sleeve gown</h4>
+					</div>
+					<div class="product-right">
+						<h5>$380</h5>
+					</div>
+				</div>
+				<p>Female</p>
+        <div class="cart">
+        <div class="c-icons-left">
+          <h4>Add to cart</h4>
       </div>
-    </section>
+      <div class="c-icons-right">
+        <a href="#"><i class='bx bx-cart'></i></a>
+      </div>
+    </div>
+	
+			</div>
+
+			<div class="row">
+				<img src="./COS106/Images/pants/female blue coloured pants.png">
+				<div class="product-text">
+					<div class="product-left">
+						<h4>Off shoulder short qown</h4>
+					</div>
+					<div class="product-right">
+						<h5>$400</h5>
+					</div>
+				</div>
+				<p>Female</p>
+        <div class="cart">
+          <div class="c-icons-left">
+            <h4>Add to cart</h4>
+        </div>
+        <div class="c-icons-right">
+          <a href="#"><i class='bx bx-cart'></i></a>
+        </div>
+      </div>
+				
+			</div>
+
+			<div class="row">
+				<img src="./COS106/Images/pants/female black and white stripes coloured pants.png">
+				<div class="product-text">
+					<div class="product-left">
+						<h4>White collared short gown</h4>
+					</div>
+					<div class="product-right">
+						<h5>$400</h5>
+					</div>
+				</div>
+				<p>Female</p>
+        <div class="cart">
+          <div class="c-icons-left">
+            <h4>Add to cart</h4>
+        </div>
+        <div class="c-icons-right">
+          <a href="#"><i class='bx bx-cart'></i></a>
+        </div>
+      </div>
+				
+			</div>
+
+			<div class="row">
+				<img src="./COS106/Images/pants/female blue coloured pants.png">
+				<div class="product-text">
+					<div class="product-left">
+						<h4>White short sleeve gown</h4>
+					</div>
+					<div class="product-right">
+						<h5>$380</h5>
+					</div>
+				</div>
+				<p>Female</p>
+        <div class="cart">
+          <div class="c-icons-left">
+            <h4>Add to cart</h4>
+        </div>
+        <div class="c-icons-right">
+          <a href="#"><i class='bx bx-cart'></i></a>
+        </div>
+      </div>
+			
+			</div>
+     </div>
+     <br><br><br>
+
+
+
+     <div class="product-content">
+			<div class="row">
+				<!-- <img src="./COS 106/Images/gown/white short simple sleeveless gown.png"> -->
+        <img src="./COS106/Images/shoes/black female boot.png" alt="">
+				<div class="product-text">
+					<div class="menu-left">
+						<h4>White short sleeve gown</h4>
+					</div>
+					<div class="product-right">
+						<h5>$380</h5>
+					</div>
+				</div>
+				<p>Female</p>
+        <div class="cart">
+        <div class="c-icons-left">
+          <h4>Add to cart</h4>
+      </div>
+      <div class="c-icons-right">
+        <a href="#"><i class='bx bx-cart'></i></a>
+      </div>
+    </div>
+	
+			</div>
+
+			<div class="row">
+				<img src="./COS106/Images/shoes/black heel sandal.png">
+				<div class="product-text">
+					<div class="product-left">
+						<h4>Off shoulder short qown</h4>
+					</div>
+					<div class="product-right">
+						<h5>$400</h5>
+					</div>
+				</div>
+				<p>Female</p>
+        <div class="cart">
+          <div class="c-icons-left">
+            <h4>Add to cart</h4>
+        </div>
+        <div class="c-icons-right">
+          <a href="#"><i class='bx bx-cart'></i></a>
+        </div>
+      </div>
+				
+			</div>
+
+			<div class="row">
+				<img src="./COS106/Images/shoes/white sneakers boot.png">
+				<div class="product-text">
+					<div class="product-left">
+						<h4>White collared short gown</h4>
+					</div>
+					<div class="product-right">
+						<h5>$400</h5>
+					</div>
+				</div>
+				<p>Female</p>
+        <div class="cart">
+          <div class="c-icons-left">
+            <h4>Add to cart</h4>
+        </div>
+        <div class="c-icons-right">
+          <a href="#"><i class='bx bx-cart'></i></a>
+        </div>
+      </div>
+				
+			</div>
+
+			<div class="row">
+				<img src="./COS106/Images/shoes/black heel.png">
+				<div class="product-text">
+					<div class="product-left">
+						<h4>White short sleeve gown</h4>
+					</div>
+					<div class="product-right">
+						<h5>$380</h5>
+					</div>
+				</div>
+				<p>Female</p>
+        <div class="cart">
+          <div class="c-icons-left">
+            <h4>Add to cart</h4>
+        </div>
+        <div class="c-icons-right">
+          <a href="#"><i class='bx bx-cart'></i></a>
+        </div>
+      </div>
+			
+			</div>
+
+	</section>
+
+
+
+
+
+
+
+  <!---scroll top--->
+	<a href="#home" class="scroll-top">
+		<i class='bx bx-up-arrow-alt' ></i>
+	</a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+     
+
+    <!-- custom js link -->
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
