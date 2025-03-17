@@ -37,9 +37,10 @@
 }
 
 .teamCard img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+
+  /* border-radius: 50%; */
+  object-fit: cover;
+  width: 70%;
   margin-bottom: 0.5rem;
 }
 
