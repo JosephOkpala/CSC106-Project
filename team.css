@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
 
+
 /*       teams styling         */
 .teamSection {
   width: 90%;
@@ -29,8 +30,6 @@
   text-align: center;
 }
 
-.teamCard {
-}
 
 .teamCard:not(:last-child) {
   margin-bottom: 4rem;
