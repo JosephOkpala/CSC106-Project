@@ -27,3 +27,11 @@ sr.reveal('.home-text',{delay:200, origin:'left'});
 sr.reveal('.home-img',{delay:200, origin:'right'});
 
 sr.reveal('.container, .product,',{delay:200, origin:'bottom'});
+
+document.querySelector('.scroll-top').addEventListener('click', function (event) {
+	event.preventDefault(); // Prevent default anchor behavior
+	window.scrollTo({
+	  top: 0,
+	  behavior: 'smooth', // Smooth scrolling
+	});
+  });
