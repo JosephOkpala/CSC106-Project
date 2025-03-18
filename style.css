@@ -264,7 +264,12 @@ section{
 .pproductlinks img{
 	object-fit: cover;
 	height: 200px;
-	padding: 10px;
+	padding: 18px;
+	margin: 30px;
+}
+.pproductlinks p {
+	margin-right: 10px;
+	text-align: center;
 }
 /* responsiveness */
 
