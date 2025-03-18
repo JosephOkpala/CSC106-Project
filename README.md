@@ -1,1 +1,1 @@
-CSC106 Group Project
+CSC106 Group Project.
