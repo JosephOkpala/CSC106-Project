@@ -9,54 +9,13 @@
 }
 
 /* general styling */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Cinzel", serif;
-}
-
-a {
-    text-decoration: none;
-  }
-  
-  /*          nav styles start           */
-  .burgerMenu {
-    display: none;
-  }
-  
-  .navbar {
-    height: 15vh;
-    /* z-index: 999; */
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    margin: 0 auto;
-    padding-top: 1.2rem;
-  }
-  
-  .nav-links a {
-    color: var(--black);
-  }
-  
-  .nav-links a:not(:last-child) {
-    margin-right: 1.5rem;
-    font-size: 1.2rem;
-  }
-  
-  .nav-cart {
-    width: 2rem;
-  }
 
 /* Entire products section */
 
 .entire {
     background-color: var(--grey);
     padding: 2rem;
+    padding-top: 100px;
   }
   
   .entire h1 {
