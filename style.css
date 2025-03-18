@@ -269,7 +269,20 @@ section{
 	background: var(--main-color);
 	border-radius: 5rem;
 }
-
+.pproductlinks{
+	display: flex;
+    padding: 10px;
+}
+.pproductlinks img{
+	object-fit: cover;
+	height: 200px;
+	padding: 18px;
+	margin: 30px;
+}
+.pproductlinks p {
+	margin-right: 10px;
+	text-align: center;
+}
 /* responsiveness */
 
 @media (max-width: 1690px){
