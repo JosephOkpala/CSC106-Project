@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 .events {
   padding-top: 120px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .events h2 {
@@ -36,7 +36,7 @@
   font-size: 4rem;
   margin-bottom: 2rem;
   text-align: center;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
 }
 
 .firstEvent {
