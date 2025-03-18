@@ -83,10 +83,6 @@
   font-size: 9rem;
 }
 
-.secondEvent div h1 {
-  font-size: 9rem;
-}
-
 .secondEvent div h4 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -108,4 +104,39 @@
 .bookSpot:hover {
   background-color: black;
   color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .events h2 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .eventRunwayImages {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .firstEventImages {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .secondEventImages {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .events h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .firstEvent div h4 {
+    font-size: 1.2rem;
+  }
+
+  .secondEvent div h4 {
+    font-size: 1.2rem;
+  }
 }
