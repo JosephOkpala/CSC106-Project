@@ -269,9 +269,14 @@ section{
 	background: var(--main-color);
 	border-radius: 5rem;
 }
+
+/* Product links */
 .pproductlinks{
 	display: flex;
     padding: 10px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
 }
 .pproductlinks img{
 	object-fit: cover;
@@ -282,6 +287,31 @@ section{
 .pproductlinks p {
 	margin-right: 10px;
 	text-align: center;
+}
+
+.pproduct{
+	display: flex;
+}
+
+#scrollp {
+	flex: 0 0 auto;
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	text-align: center;
+}
+
+.pproductlinks::-webkit-scrollbar {
+	height: 8px;
+}
+
+.pproductlinks::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 4px;
+}
+
+.pproductlinks::-webkit-scrollbar-thumb:hover {
+	background: #555;
 }
 /* responsiveness */
 
