@@ -210,7 +210,7 @@ section{
 	  padding: 15px 0;
   }
   .product-left h4{
-	  font-size: 20px;
+	  font-size: 17px;
   }
   .cart{
 	  display: flex;
@@ -223,8 +223,8 @@ section{
 	padding: 10px 22px;
   }
   .c-icons-left h4{
-	  font-size:23px ;
-	  /* justify-content: center; */
+	  
+
   }
   .c-icons-right i{
 	  color: black;
@@ -383,7 +383,7 @@ section{
 		height: 100px;
 	}
 }
-
+/* emptycart */
 .emptycart{
 	width: 95%;
 	margin: 4rem auto;
@@ -408,6 +408,7 @@ p {
 	color: white;
 	padding: 0.5rem;
 	border-radius: 7px;
+	border: none;
 }
 
 .explore a {
