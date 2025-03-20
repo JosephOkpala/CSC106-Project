@@ -20,7 +20,7 @@
   
   .entire h1 {
     width: 80%; 
-    margin: auto ;
+    margin: 0 auto 2rem auto ;
   }
 
   .entire h2 {

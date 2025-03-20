@@ -383,7 +383,7 @@ section{
 		height: 100px;
 	}
 }
-
+/* emptycart */
 .emptycart{
 	width: 95%;
 	margin: 4rem auto;
@@ -408,6 +408,7 @@ p {
 	color: white;
 	padding: 0.5rem;
 	border-radius: 7px;
+	border: none;
 }
 
 .explore a {
