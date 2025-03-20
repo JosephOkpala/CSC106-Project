@@ -420,6 +420,11 @@ p {
 	height: 8rem;
 }
 
+.xplore {
+	background-color: #ECEAEA;
+	width: 95%;
+	margin: auto;
+}
 @media (max-width: 820px){
 	:root{
 		--big-font: 3rem;
