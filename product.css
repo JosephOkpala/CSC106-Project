@@ -20,19 +20,14 @@
   
   .entire h1 {
     width: 80%; 
-    margin: auto;
+    margin: 0 auto 2rem auto ;
   }
-  
-  .productcard {
-    width: 80%;
-    background-color: var(--grey);
-    padding: 2rem;
-  }
-  
-  .entire h1 {
+
+  .entire h2 {
     width: 80%; 
     margin: auto;
   }
+
   .productcard {
     width: 80%;
     display: grid;
