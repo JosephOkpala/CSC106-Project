@@ -34,9 +34,9 @@
 
 ## Tools
 
-<h3>JavaScript frameworks</h3>
+<h3>Integrated development environment</h3>
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="40" alt="Vue.js logo" />
+ <img src="https://img.shields.io/badge/VS_Code-007ACC?logo=visualstudiocode&logoColor=white" height="30" alt="VS Code" />
   <img width="12" />
 </div>
 
@@ -64,15 +64,10 @@
   <img width="12" />
 </div>
 
-<h3>UI frameworks</h3>
-<div align="left">
- <img src="https://img.shields.io/badge/Naive_UI-3B82F6?logo=vue.js&logoColor=white" height="30" alt="Naive UI" />
-  <img width="12" />
-</div>
 
 <h3>Programming languages</h3>
 <div align="left">
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript logo" />
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML logo" />
   <img width="12" />
 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript logo" />
