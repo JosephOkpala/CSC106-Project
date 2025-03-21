@@ -13,7 +13,7 @@
 /* Entire products section */
 
 .entire {
-    background-color: var(--grey);
+    background-color: var(--white);
     padding: 2rem;
     padding-top: 100px;
   }
@@ -33,11 +33,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     padding: 1rem;
     margin: auto;
   }
-  
+  /* Product sections */
+  .psection {
+    margin: 3rem 0;
+  }
+
   /* Individual product */
   .card {
     background-color: var(--white);
