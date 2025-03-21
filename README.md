@@ -10,3 +10,5 @@ Contributors:
 7. Oluwatobi Obadare
 8. Olakunbi Ogunfuyi
 9. Moyosoreoluwa.
+
+Project Title: The LuxeLabel
