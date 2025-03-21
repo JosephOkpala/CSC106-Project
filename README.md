@@ -8,11 +8,6 @@
   confidence, elegance, and effortless style.
   </p>
 
-<<<<<<< HEAD
-Project Title: The LuxeLabel
-
-Description: LuxeLabel
-=======
  ### Details
 <p>
   This project is our End-of-Semester Assessment at Miva Open University. <br />
@@ -21,6 +16,16 @@ Description: LuxeLabel
 
 ### Contributors 
 <ul> 
-  <li>Joseph</li>
+  <li><a href="https://github.com/JosephOkpala" target="_blank">Joseph Okpala</a</li>
+  <li><a href="https://github.com/B-isaiah" target="_blank">Blessing Isaiah</a></li>
+  <li><a href="https://github.com/Elizabrown1" target="_blank">Elizabeth Abodunrin</a></li>
+  <li><a href="https://github.com/falolashamsa" target="_blank">Shamsa Falola</a></li>
+  <li><a href="https://github.com/Ayo-Moyo" target="_blank">Ayokunnumi Oyesile</a></li>
+  <li><a href="https://github.com/Sasha-964" target="_blank">Rahab Sunday</a></li>
+  <li><a href="https://github.com/ola1234-ux" target="_blank">Olakunbi Ogunfuyi</a></li>
+  <li><a href="https://github.com/Newton-Wrld" target="_blank">Oluwatobi Ayomide</a></li>
+  <li><a href="https://github.com/jojowhite10" target="_blank">Joan Imo-afe</a></li>
+  <li> Ene Joy<p> Content Editor</p></li>
+
+
 </ul>
->>>>>>> f167db0c3245a6632961197bfa302325e7c0240b
