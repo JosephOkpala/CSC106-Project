@@ -198,6 +198,7 @@ section{
 	  margin-top: 4rem;
 	  cursor: pointer;
   }
+
   .row img{
 	  width: 250px;
       height: 303px;
@@ -206,6 +207,7 @@ section{
 	  display: flex;
 	  justify-content: center;
   }
+  
   .row{
 	  transition: all .38s ease;
   }
