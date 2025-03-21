@@ -27,7 +27,7 @@
   <li><a href="https://github.com/ola1234-ux" target="_blank">Olakunbi Ogunfuyi</a></li>
   <li><a href="https://github.com/Newton-Wrld" target="_blank">Oluwatobi Ayomide</a></li>
   <li><a href="https://github.com/jojowhite10" target="_blank">Joan Imo-afe</a></li>
-  <li>Ene Joy<a>-content editor</a></li>
+  <li><a href="https://github.com/EneJoy" target="_blank">Ene Joy<a>-Content Editor</a></li>
 
 </ul>
 
