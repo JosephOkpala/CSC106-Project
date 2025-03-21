@@ -12,3 +12,5 @@ Contributors:
 9. Moyosoreoluwa.
 
 Project Title: The LuxeLabel
+
+Description: LuxeLabel
