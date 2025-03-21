@@ -8,14 +8,14 @@
   confidence, elegance, and effortless style.
   </p>
 
-### Details
+## Details
 
 <p>
   This project is our End-of-Semester Assessment at Miva Open University. <br />
   We were tasked with forming a group of ten to create a fashion website. After countless iterations and contributions from all team members, we successfully launched <strong>The LuxeLabel</strong>.
 </p>
 
-### Contributors
+## Contributors
 
 <ul> 
   <li><a href="https://github.com/JosephOkpala" target="_blank">Joseph Okpala</a</li>
@@ -30,3 +30,54 @@
   <li>Ene Joy<a>-content editor</a></li>
 
 </ul>
+
+
+## Tools
+
+<h3>JavaScript frameworks</h3>
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="40" alt="Vue.js logo" />
+  <img width="12" />
+</div>
+
+<h3>Font scripts</h3>
+<div align="left">
+  <img src="https://img.shields.io/badge/Google_Font_API-4FC08D?logo=google&logoColor=white" height="30" alt="Google Font API" />
+  <img width="12" />
+</div>
+
+<h3>Web servers</h3>
+<div align="left">
+ <img src="https://img.shields.io/badge/Microsoft_HTTPAPI2.0-0078D4?logo=microsoft&logoColor=white" height="30" alt="Microsoft HTTPAPI2.0" />
+  <img width="12" />
+</div>
+
+<h3>CDN</h3>
+<div align="left">
+<img src="https://img.shields.io/badge/Unpkg-2E7EEA?logo=npm&logoColor=white" height="30" alt="Unpkg" />
+  <img width="12" />
+</div>
+
+<h3>JavaScript libraries</h3>
+<div align="left">
+<img src="https://img.shields.io/badge/ScrollReveal-F55050?logo=javascript&logoColor=white" height="30" alt="ScrollReveal" />
+  <img width="12" />
+</div>
+
+<h3>UI frameworks</h3>
+<div align="left">
+ <img src="https://img.shields.io/badge/Naive_UI-3B82F6?logo=vue.js&logoColor=white" height="30" alt="Naive UI" />
+  <img width="12" />
+</div>
+
+<h3>Programming languages</h3>
+<div align="left">
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript logo" />
+  <img width="12" />
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript logo" />
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS logo" />
+  <img width="12" />
+</div>
+
