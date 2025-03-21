@@ -1,0 +1,21 @@
+@media (max-width: 500px) {
+    .productcard {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
+        margin: auto;
+    }
+}
+
+@media (max-width: 760px) and (min-width: 501px) {
+    .productcard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
+        margin: auto;
+    }
+}

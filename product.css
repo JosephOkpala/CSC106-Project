@@ -9,115 +9,78 @@
 }
 
 /* general styling */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Cinzel", serif;
-}
-
-a {
-    text-decoration: none;
-  }
-  
-  /*          nav styles start           */
-  .burgerMenu {
-    display: none;
-  }
-  
-  .navbar {
-    height: 15vh;
-    /* z-index: 999; */
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    margin: 0 auto;
-    padding-top: 1.2rem;
-  }
-  
-  .nav-links a {
-    color: var(--black);
-  }
-  
-  .nav-links a:not(:last-child) {
-    margin-right: 1.5rem;
-    font-size: 1.2rem;
-  }
-  
-  .nav-cart {
-    width: 2rem;
-  }
 
 /* Entire products section */
 
 .entire {
-    background-color: var(--grey);
+    background-color: var(--white);
     padding: 2rem;
+    padding-top: 100px;
   }
   
   .entire h1 {
     width: 80%; 
-    margin: auto;
+    margin: 0 auto 2rem auto ;
   }
-  
-  .productcard {
-    width: 80%;
-    background-color: var(--grey);
-    padding: 2rem;
-  }
-  
-  .entire h1 {
+
+  .entire h2 {
     width: 80%; 
     margin: auto;
   }
+
   .productcard {
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     padding: 1rem;
     margin: auto;
   }
-  
+  /* Product sections */
+  .psection {
+    margin: 3rem 0;
+  }
+
   /* Individual product */
   .card {
     background-color: var(--white);
-    width: 15rem;
-    border: 4px solid red;
+    width: 13rem;
     padding: 0.5rem 1.5rem;
-    margin: auto;
+    margin: 1rem;
   }
   
   .img {
     width: 150px;
-    height: 250px;
-    border: 3px solid blue;
+    height: 200px;
     border-radius: 20px;
-    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0.5rem;
   }
   
   .card p {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .cart {
-    border: 2px solid green;
     background-color: var(--black);
-    height: 2rem;
+    height: 2.5rem;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
   }
   
+  .sub {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .gender {
+    color: var(--grey);
+  }
+
   .carticon {
-    border: 2px solid orange;
     height: 2rem;
+    padding: 0.5rem 0 0 0;
   }
-  
-  .carticon {
-    border: 2px solid orange;
-  }
-  

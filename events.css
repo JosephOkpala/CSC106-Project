@@ -1,0 +1,142 @@
+
+.events {
+  padding-top: 120px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.events h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.eventRunwayImages {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 6rem;
+}
+
+.eachRunwayImages {
+  width: 100%;
+  overflow: hidden;
+}
+
+.eachRunwayImages img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.eachRunwayImages:hover img {
+  transform: scale(1.2); /* Zoom in */
+}
+
+.events h3 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+.firstEvent {
+  margin-bottom: 2rem;
+}
+
+.firstEvent div h1 {
+  font-size: 9rem;
+}
+
+.firstEvent div h4 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.firstEvent p {
+  margin-bottom: 1rem;
+}
+
+.firstEventImages {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 2rem;
+}
+
+.firstEventImages div {
+  width: 100%;
+  overflow: hidden;
+}
+
+.firstEventImages div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.eachEventImagesOne:hover img {
+  transform: scale(1.2); /* Zoom in */
+}
+
+.secondEvent div h1 {
+  font-size: 9rem;
+}
+
+.secondEvent div h4 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.secondEvent p {
+  margin-bottom: 1rem;
+}
+
+.bookSpot {
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.bookSpot:hover {
+  background-color: black;
+  color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .events h2 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .eventRunwayImages {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .firstEventImages {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .secondEventImages {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .events h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .firstEvent div h4 {
+    font-size: 1.2rem;
+  }
+
+  .secondEvent div h4 {
+    font-size: 1.2rem;
+  }
+}
