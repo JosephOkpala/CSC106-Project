@@ -13,36 +13,35 @@
 /* Entire products section */
 
 .entire {
-    background-color: var(--grey);
+    background-color: var(--white);
     padding: 2rem;
     padding-top: 100px;
   }
   
   .entire h1 {
     width: 80%; 
-    margin: auto;
+    margin: 0 auto 2rem auto ;
   }
-  
-  .productcard {
-    width: 80%;
-    background-color: var(--grey);
-    padding: 2rem;
-  }
-  
-  .entire h1 {
+
+  .entire h2 {
     width: 80%; 
     margin: auto;
   }
+
   .productcard {
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     padding: 1rem;
     margin: auto;
   }
-  
+  /* Product sections */
+  .psection {
+    margin: 3rem 0;
+  }
+
   /* Individual product */
   .card {
     background-color: var(--white);
