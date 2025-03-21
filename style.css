@@ -200,9 +200,12 @@ section{
   }
 
   .row img{
-	  width: 100%;
-	  height: auto;
+	  width: 250px;
+      height: 303px;
 	  border-radius: 10px;
+	  margin: auto;
+	  display: flex;
+	  justify-content: center;
   }
   
   .row{
