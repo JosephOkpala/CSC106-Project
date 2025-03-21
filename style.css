@@ -198,11 +198,13 @@ section{
 	  margin-top: 4rem;
 	  cursor: pointer;
   }
+
   .row img{
 	  width: 100%;
-	  height: auto;
+      height:auto;
 	  border-radius: 10px;
   }
+  
   .row{
 	  transition: all .38s ease;
   }
@@ -297,6 +299,11 @@ section{
 
 .pproduct{
 	display: flex;
+}
+/* style gallery text style */
+.pproductlinks a p{
+	text-decoration: none;
+	color: black;
 }
 
 #scrollp {
