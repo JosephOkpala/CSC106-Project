@@ -50,14 +50,13 @@
     margin: 1rem;
   }
   
-  .img {
-    width: 210px;
+  .row .img {
+    width: 250px;
     height: 303px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 0.5rem;
+	  border-radius: 10px;
+	  margin: auto;
+	  display: flex;
+	  justify-content: center;
   }
   
   .card p {

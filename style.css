@@ -199,12 +199,9 @@ section{
 	  cursor: pointer;
   }
   .row img{
-	  width: 250px;
-      height: 303px;
+	  width: 100%;
+	  height: auto;
 	  border-radius: 10px;
-	  margin: auto;
-	  display: flex;
-	  justify-content: center;
   }
   .row{
 	  transition: all .38s ease;
