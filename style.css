@@ -508,7 +508,6 @@ p {
 		height: auto;
 		max-width: 590px;
 		width: 100%;
-	
 	}
 	.home-text{
 		padding-top: 50px;
@@ -532,5 +531,8 @@ p {
         gap: 1rem;
         padding: 70px;
         margin: 5px;
+	}
+	.pproducts{
+		margin-top: 20rem;
 	}
 }
