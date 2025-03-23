@@ -49,11 +49,12 @@
   }
   .content{
     display: flex;
+    
   }
   
   .calendar-base {
-    width: 900px;
-    height: 500px;
+    width: 800px;
+    height: 300px;
     border-radius: 20px;
     background-color: white;
     position: relative;
@@ -63,7 +64,7 @@
   
   .year {
     color: #E8E8E8;
-    font-size: 30px;
+    font-size: 10px;
     float: right;
     position: relative;
     right: 75px;
@@ -111,34 +112,34 @@
   .months {
     color: #AAAAAA;
     position: relative;
-    left: 350px;
-    top: 90px;
-    word-spacing: 10px;
+    left: 250px;
+    top: 30px;
+    word-spacing: 15px;
   }
   
-  .month-line {
+  /* .month-line {
     border-color: #E8E8E8;
     position: relative;
-    top: 85px;
-    width: 57%;
+    top: 40px;
+    width: 60%;
     left: 178px;
-  }
+  } */
   
   .days {
     color: #AAAAAA;
     position: relative;
-    font-size: 18px;
-    left: 355px;
-    top: 80px;
-    word-spacing: 35px;
+    font-size: 10px;
+    left: 300px;
+    top: 50px;
+    word-spacing: 50px;
     font-weight: 600;
   }
   
   .num-dates {
     float: right;
     position: relative;
-    top: 110px;
-    right: 50px;
+    top: 80px;
+    right: 5px;
     z-index: 1;
   }
   
@@ -164,12 +165,12 @@
   
   .fifth-week {
     margin-bottom: 25px;
-    word-spacing: 56px;
+    word-spacing: 40px;
   }
   
   .sixth-week {
     margin-bottom: 25px;
-    word-spacing: 55px;
+    word-spacing: 5px;
   }
   
   .active-day {
@@ -207,8 +208,8 @@
   }
   
   .calendar-left {
-    width: 300px;
-    height: 500px;
+    width: 30%;
+    height: 30%;
     border-radius: 20px 0px 0px 20px;
     background-color: #2ECC71;
     position: relative;
@@ -236,22 +237,22 @@
   }
   
   .num-date {
-    font-size: 150px;
+    font-size: 50px;
     width: 50%;
     margin: 0 auto;
     font-weight: 700;
   }
   
   .day {
-    width: 50%;
+    width: 50px;
     margin: 0px auto;
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
     bottom: 60px;
   }
   
   .current-events {
-    font-size: 15px;
+    font-size: 5px;
     position: relative;
     margin-left: 25px;
     bottom: 30px;
@@ -264,36 +265,7 @@
     color:#27e879 !important;
   }
   
-  .create-event {
-    font-size: 18px;
-    position: relative;
-    margin-top: 30px;
-    margin-left: 25px;
-  }
-  
   .event-line {
     width: 90%;
   }
   
-  .add-event {
-    width: 20px;
-    height: 20px;
-    padding: 0px;
-    border-radius: 50%;
-    border: solid white 2px;
-    position: relative;
-    bottom: 42px;
-    left: 260px;
-  }
-  
-  .add {
-    font-size: 25px;
-    position: relative;
-    left: 4px;
-    bottom: 10px;
-  }
-  
-  .add:hover, .create-event:hover, .add-event:hover{
-    color:#27e879 !important;
-    border-color: #27e879 !important;
-  }
