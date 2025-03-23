@@ -105,6 +105,45 @@
   color: white;
 }
 
+/* footer */
+/* .footer{
+	background-color: black;
+}
+.main-footer{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+	gap: 2rem;
+}
+.footer-content h4{
+	font-size: 20px;
+	color: white;
+	margin-bottom: 1.5rem;
+}
+.footer-content a{
+	color: #fff;
+}
+.footer-content li{
+	margin-bottom: 16px;
+}
+.footer-content li a{
+	display: block;
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+	transition: all .38s ease;
+}
+.footer-content li a:hover{
+	transform: translateX(10px);
+	color: var(--main-color);
+}
+.last-text p{
+	text-align: center;
+	padding: 25px;
+	color: var(--text-color);
+	font-size: 15px;
+	letter-spacing: 1px;
+} */
+
 @media screen and (max-width: 768px) {
   .events h2 {
     font-size: 1.6rem;
