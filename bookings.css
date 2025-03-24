@@ -22,7 +22,7 @@
   .backgroundimage{
     background-image: url(./COS106/Images/freepik__upload__8086.png);
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-size: cover;
     background-repeat: repeat;
   }
@@ -39,233 +39,62 @@
   }
   .inputgroup{
     display: grid;
-    gap: 40px;
+    gap: 45px;
   }
   input , select{
-    width: 30%;
-    height: 30px;
+    width: 300px;
+    height: 50px;
     border-radius:30px;
     border: none;
   }
   .content{
-    display: flex;
-    
+    display:flex;
+    height: 350px;
   }
   
-  .calendar-base {
-    width: 800px;
-    height: 300px;
-    border-radius: 20px;
-    background-color: white;
-    position: relative;
-    z-index: -1;
-    color: black;
-  }
-  
-  .year {
-    color: #E8E8E8;
-    font-size: 10px;
-    float: right;
-    position: relative;
-    right: 75px;
-    top: 20px;
+  .calendar-container {
+    width: 300px; /* Adjust width */
+    padding: 5px; /* Reduce padding */
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    margin-left:30%;
+}
+
+.calendar-header {
+    font-size: 16px; /* Reduce header size */
+    padding: 5px;
     font-weight: bold;
-  }
+    background: #888585;
+    border-radius: 10px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns */
+    gap: 5px; /* Reduce space between days */
+    font-size: 12px; 
   
-  .triangle-left {
-    width: 0;
-    height: 0;
-    border-top: 5px solid transparent;
-    border-right: 10px solid #E8E8E8;
-    border-bottom: 5px solid transparent;
-    float: right;
-    position: relative;
-    right: 90px;
-    top: 36px;
-  }
-  
-  .triangle-right {
-    width: 0;
-    height: 0;
-    border-top: 5px solid transparent;
-    border-left: 10px solid #E8E8E8;
-    border-bottom: 5px solid transparent;
-    float: right;
-    position: relative;
-    left: 20px;
-    top: 36px;
-  }
-  .triangle-left:hover{
-    border-right: 10px solid#2ECC71;
-  }
-  .triangle-right:hover{
-    border-left: 10px solid#2ECC71;
-  }
-  
-  .month-color {
-    color: #27AE60;
-  }
-  .month-hover:hover{
-    color:#27e879 !important;
-  }
-  
-  .months {
-    color: #AAAAAA;
-    position: relative;
-    left: 250px;
-    top: 30px;
-    word-spacing: 15px;
-  }
-  
-  /* .month-line {
-    border-color: #E8E8E8;
-    position: relative;
-    top: 40px;
-    width: 60%;
-    left: 178px;
-  } */
-  
-  .days {
-    color: #AAAAAA;
-    position: relative;
-    font-size: 10px;
-    left: 300px;
-    top: 50px;
-    word-spacing: 50px;
-    font-weight: 600;
-  }
-  
-  .num-dates {
-    float: right;
-    position: relative;
-    top: 80px;
-    right: 5px;
-    z-index: 1;
-  }
-  
-  .first-week {
-    margin-bottom: 25px;
-    word-spacing: 55px;
-  }
-  
-  .second-week {
-    margin-bottom: 25px;
-    word-spacing: 53px;
-  }
-  
-  .third-week {
-    margin-bottom: 25px;
-    word-spacing: 58px;
-  }
-  
-  .fourth-week {
-    margin-bottom: 25px;
-    word-spacing: 58px;
-  }
-  
-  .fifth-week {
-    margin-bottom: 25px;
-    word-spacing: 40px;
-  }
-  
-  .sixth-week {
-    margin-bottom: 25px;
-    word-spacing: 5px;
-  }
-  
-  .active-day {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: #2ECC71;
-    position: relative;
-    top: 295px;
-    left: 661px;
-  }
-  
-  .white {
-    color: white;
-  }
-  
-  .event-indicator {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: #2980B9;
-    position: relative;
-    top: 304px;
-    left: 695px;
-  }
-  
-  .two {
-    position: relative;
-    top: 168px;
-    left: 535px;
-  }
-  
-  .grey {
-    color: #AAAAB1;
-  }
-  
-  .calendar-left {
-    width: 30%;
-    height: 30%;
-    border-radius: 20px 0px 0px 20px;
-    background-color: #2ECC71;
-    position: relative;
-    z-index: -1;
-    bottom: 500px;
-    color: white;
-  }
-  
-  .hamburger {
-    position: relative;
-    top: 25px;
-    left: 25px;
-  }
-  
-  .burger-line:hover, .hamburger:hover{
-    background-color:#27e879 !important;
-  }
-  
-  .burger-line {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    border-radius: 15%;
-    margin-bottom: 3px;
-  }
-  
-  .num-date {
-    font-size: 50px;
-    width: 50%;
-    margin: 0 auto;
-    font-weight: 700;
-  }
-  
-  .day {
-    width: 50px;
-    margin: 0px auto;
-    font-size: 20px;
-    position: relative;
-    bottom: 60px;
-  }
-  
-  .current-events {
-    font-size: 5px;
-    position: relative;
-    margin-left: 25px;
-    bottom: 30px;
-  }
-  
-  .posts {
-    text-decoration: underline dotted;
-  }
-  .posts:hover{
-    color:#27e879 !important;
-  }
-  
-  .event-line {
-    width: 90%;
-  }
-  
+}
+
+.calendar-day {
+    padding: 5px;
+    border-radius: 5px;
+    background: #f8f8f8;
+}
+
+.time-slots {
+    font-size: 10px; 
+    padding: 5px;
+    margin-top: 10px;
+}
+.bbbot{
+  position: absolute;
+  display: grid;
+  align-self: flex-end;
+  margin-left: 56%;
+  width: 30%;
+}
