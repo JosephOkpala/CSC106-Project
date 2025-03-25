@@ -106,7 +106,11 @@ body{
 }
 
 /* Selected Date */
+<<<<<<< HEAD
 input[name="date"]:checked ~ .book-btn {
+=======
+input[name="date"]:checked + .book-btn {
+>>>>>>> 228c2666c24d7b7d8289b3590bcd0dddfdfad25a
   background: #696a6a;
   color: white;
 }
@@ -125,7 +129,11 @@ input[name="date"]:checked ~ .book-btn:hover {
     color: white;
     border: none;
     border-radius: 5px;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+    cursor: not-allowed;
+>>>>>>> 228c2666c24d7b7d8289b3590bcd0dddfdfad25a
     font-size: 16px;
     transition: 0.3 ease;
 }
