@@ -106,7 +106,7 @@ body{
 }
 
 /* Selected Date */
-input[name="date"]:checked + .book-btn {
+input[name="date"]:checked ~ .book-btn {
   background: #696a6a;
   color: white;
 }
@@ -125,7 +125,7 @@ input[name="date"]:checked ~ .book-btn:hover {
     color: white;
     border: none;
     border-radius: 5px;
-    cursor: not-allowed;
+    cursor: pointer;
     font-size: 16px;
     transition: 0.3 ease;
 }
