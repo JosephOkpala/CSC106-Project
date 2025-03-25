@@ -8,10 +8,7 @@
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="./bookings.css">
-<<<<<<< HEAD
   <link rel="stylesheet" href="./booking.js">
-=======
->>>>>>> 228c2666c24d7b7d8289b3590bcd0dddfdfad25a
 </head>
 
 <body>
@@ -39,12 +36,12 @@
   <div class="backgroundimage">
     <div class="transbackground">
       <div class="content">
-        <form>
+        <form id="frm" class="frm">
           <div class="inputgroup">
             <input type="text" placeholder="  Name:">
             <input type="text" placeholder="  E-mail:">
             <input type="text" placeholder="  Contact:">
-            <select name="   Application Options" id="service">
+            <select name="Application Options" id="service">
               <option value="" disabled selected>Application Options</option>
               <option value="Pss">Personal Styling Session</option>
               <option value="CF">Custom Fitting</option>
@@ -52,95 +49,90 @@
               <option value="ECI">Event Collaboration Inquiry</option>
             </select>
           </div>
-        </form>
-        <div class="container">
-          <div class="calendar-container">
-            <div class="calendar-header">AVAILABLE SLOTS</div>
-            <div class="calendar-grid">
-              <div class="day">Mon</div>
-              <div class="day">Tue</div>
-              <div class="day">Wed</div>
-              <div class="day">Thu</div>
-              <div class="day">Fri</div>
-              <div class="day">Sat</div>
-              <div class="day">Sun</div>
+          <div class="container">
+            <div class="calendar-container">
+              <div class="calendar-header">AVAILABLE SLOTS</div>
+              <div id="calgrid" class="calendar-grid">
+                <div class="day">Mon</div>
+                <div class="day">Tue</div>
+                <div class="day">Wed</div>
+                <div class="day">Thu</div>
+                <div class="day">Fri</div>
+                <div class="day">Sat</div>
+                <div class="day">Sun</div>
 
-              <!-- Dates as radio buttons -->
-              <input type="radio" name="date" id="date1" hidden>
-              <label for="date1" class="date">1</label>
-
-              <input type="radio" name="date" id="date2" hidden>
-              <label for="date2" class="date">2</label>
-
-              <input type="radio" name="date" id="date3" hidden>
-              <label for="date3" class="date">3</label>
-
-              <input type="radio" name="date" id="date4" hidden>
-              <label for="date4" class="date">4</label>
-
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">5</label>
-
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">6</label>
-
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">7</label>
-
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">8</label>
-              
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">9</label>
-
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">10</label>
-              
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">11</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">12</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">13</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">14</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">15</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">16</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">17</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">18</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">19</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">20</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">21</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">22</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">23</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">24</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">25</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">26</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">27</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">28</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">29</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">30</label>
-              <input type="radio" name="date" id="date5" hidden>
-              <label for="date5" class="date">31</label>
+                <!-- Dates as radio buttons with unique IDs -->
+                <input type="radio" name="date" id="date1" hidden>
+                <label for="date1" class="date">1</label>
+                <input type="radio" name="date" id="date2" hidden>
+                <label for="date2" class="date">2</label>
+                <input type="radio" name="date" id="date3" hidden>
+                <label for="date3" class="date">3</label>
+                <input type="radio" name="date" id="date4" hidden>
+                <label for="date4" class="date">4</label>
+                <input type="radio" name="date" id="date5" hidden>
+                <label for="date5" class="date">5</label>
+                <input type="radio" name="date" id="date6" hidden>
+                <label for="date6" class="date">6</label>
+                <input type="radio" name="date" id="date7" hidden>
+                <label for="date7" class="date">7</label>
+                <input type="radio" name="date" id="date8" hidden>
+                <label for="date8" class="date">8</label>
+                <input type="radio" name="date" id="date9" hidden>
+                <label for="date9" class="date">9</label>
+                <input type="radio" name="date" id="date10" hidden>
+                <label for="date10" class="date">10</label>
+                <input type="radio" name="date" id="date11" hidden>
+                <label for="date11" class="date">11</label>
+                <input type="radio" name="date" id="date12" hidden>
+                <label for="date12" class="date">12</label>
+                <input type="radio" name="date" id="date13" hidden>
+                <label for="date13" class="date">13</label>
+                <input type="radio" name="date" id="date14" hidden>
+                <label for="date14" class="date">14</label>
+                <input type="radio" name="date" id="date15" hidden>
+                <label for="date15" class="date">15</label>
+                <input type="radio" name="date" id="date16" hidden>
+                <label for="date16" class="date">16</label>
+                <input type="radio" name="date" id="date17" hidden>
+                <label for="date17" class="date">17</label>
+                <input type="radio" name="date" id="date18" hidden>
+                <label for="date18" class="date">18</label>
+                <input type="radio" name="date" id="date19" hidden>
+                <label for="date19" class="date">19</label>
+                <input type="radio" name="date" id="date20" hidden>
+                <label for="date20" class="date">20</label>
+                <input type="radio" name="date" id="date21" hidden>
+                <label for="date21" class="date">21</label>
+                <input type="radio" name="date" id="date22" hidden>
+                <label for="date22" class="date">22</label>
+                <input type="radio" name="date" id="date23" hidden>
+                <label for="date23" class="date">23</label>
+                <input type="radio" name="date" id="date24" hidden>
+                <label for="date24" class="date">24</label>
+                <input type="radio" name="date" id="date25" hidden>
+                <label for="date25" class="date">25</label>
+                <input type="radio" name="date" id="date26" hidden>
+                <label for="date26" class="date">26</label>
+                <input type="radio" name="date" id="date27" hidden>
+                <label for="date27" class="date">27</label>
+                <input type="radio" name="date" id="date28" hidden>
+                <label for="date28" class="date">28</label>
+                <input type="radio" name="date" id="date29" hidden>
+                <label for="date29" class="date">29</label>
+                <input type="radio" name="date" id="date30" hidden>
+                <label for="date30" class="date">30</label>
+                <input type="radio" name="date" id="date31" hidden>
+                <label for="date31" class="date">31</label>
+              </div>
             </div>
+            <button id="bookbtn" type="button" class="book-btn" >Book Now</button>
           </div>
-          <button class="book-btn">Book Now</button>
+        </form>
+        <div id="successMessage" class="successMessageContainer">
+          <img src="./COS106/Images/success.png" alt="Success">
+          <h5>You have successfully booked a spot.</h5>
+        </div>
 
 
       <!-- custom js link -->

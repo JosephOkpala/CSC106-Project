@@ -40,21 +40,26 @@ body{
     align-items: center;
     background-color: rgb(217,217,217)
   }
-  .inputgroup{
+  .inputgroup {
     display: grid;
     gap: 30px;
   }
-  input , select{
+  
+  input, select {
     width: 350px;
     height: 50px;
-    border-radius:30px;
+    border-radius: 30px;
     border: none;
     margin-top: 30px;
   }
-  .content{
-    display:flex;
+  .frm{
+    display: flex;
+  }
+  .content {
+    display: flex;
     height: 430px;
   }
+  
   .calendar-container {
     width: 40%;
     max-width: 500px;
@@ -66,78 +71,117 @@ body{
     text-align: center;
     position: absolute;
     margin-left: 20%;
-}
-
-/* Header */
-.calendar-header {
+  }
+  
+  /* Header */
+  .calendar-header {
     font-weight: bold;
     font-size: 18px;
     background: #333;
     color: white;
     padding: 10px;
     border-radius: 10px;
-}
-
-/* Grid for Calendar */
-.calendar-grid {
+  }
+  
+  /* Grid for Calendar */
+  .calendar-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 5px;
     margin-top: 10px;
-}
-
-.day {
+  }
+  
+  .day {
     font-weight: bold;
-}
-
-.date {
-    display: block;
+  }
+  
+  .date {
+    display: inline-block;
     background: #ddd;
     padding: 15px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
     text-align: center;
-}
-
-.date:hover {
-    background:  #696a6a;
+  }
+  
+  .date:hover {
+    background: #696a6a;
     color: white;
-}
-
-/* Selected Date */
-input[name="date"]:checked + .book-btn {
-  background: #696a6a;
-  color: white;
-}
-input[name="date"]:checked ~ .book-btn:hover {
-  background: #333;
-}
-
-.book-btn  {
-   display: grid;
-   position: absolute;
-    margin-top:400px;
-    margin-left: 28%;
+  }
+  
+  /* Selected Date via Radio Button */
+  input[type="radio"]:checked + .date {
+    background: #696a6a;
+    color: white;
+  }
+  
+  /* Selected Date via JavaScript */
+  .date.selected {
+    background: #696a6a;
+    color: white;
+  }
+  
+  .book-btn {
+    display: grid;
+    position: relative;
+    margin: 20px auto;
     padding: 10px;
-    width: 30%;
+    width: 50%;
     background: rgb(117, 113, 113);
     color: white;
     border: none;
     border-radius: 5px;
-    cursor: not-allowed;
+    cursor: pointer;
     font-size: 16px;
-    transition: 0.3 ease;
-}
-.book-btn :hover {
-  background: var(--grey);
-  color: var(--white);
-}
-/* Responsive Design */
-@media screen and (max-width: 600px) {
+    text-align: center;
+    z-index: 10;
+  }
+  
+  .book-btn:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .book-btn:hover:not(:disabled) {
+    background: #333;
+    color: #ffffff;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
     .calendar-grid {
-        grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
-}
+  }
+  
+  .successMessageContainer {
+    visibility: hidden;
+    border-radius: 20px;
+    background-color: white;
+    padding: 2rem 1rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 0px 0px 400px 111px rgba(186, 186, 186, 0.75);
+    z-index: 9999;
+  }
+  
+  .successMessageContainer.visible {
+    visibility: visible;
+  }
+  
+  .successMessageContainer img {
+    margin-bottom: 1rem;
+  }
+  
+  .successMessageContainer h5 {
+    width: 450px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
   
   
