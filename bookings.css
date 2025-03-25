@@ -9,6 +9,9 @@
   --black: #000000;
   --grey:rgb(217,217,217)
 }
+body{
+  background:#e0e0e0 ;
+}
 .bookingstitle h1{
   padding-top: 80px;
 }
@@ -17,7 +20,7 @@
   }
   .bookingstitle h3{
     padding-top: 20px;
-    color: var(--grey);
+    color:  #696a6a;
   }
   .backgroundimage{
     background-image: url(./COS106/Images/freepik__upload__8086.png);
@@ -39,62 +42,102 @@
   }
   .inputgroup{
     display: grid;
-    gap: 45px;
+    gap: 30px;
   }
   input , select{
-    width: 300px;
+    width: 350px;
     height: 50px;
     border-radius:30px;
     border: none;
+    margin-top: 30px;
   }
   .content{
     display:flex;
-    height: 350px;
+    height: 430px;
   }
-  
   .calendar-container {
-    width: 300px; /* Adjust width */
-    padding: 5px; /* Reduce padding */
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    margin: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    position: absolute;
-    margin-left:30%;
-}
-
-.calendar-header {
-    font-size: 16px; /* Reduce header size */
+    width: 40%;
+    max-width: 500px;
+    margin: 30px auto;
     padding: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: absolute;
+    margin-left: 20%;
+}
+
+/* Header */
+.calendar-header {
     font-weight: bold;
-    background: #888585;
+    font-size: 18px;
+    background: #333;
+    color: white;
+    padding: 10px;
     border-radius: 10px;
 }
 
+/* Grid for Calendar */
 .calendar-grid {
     display: grid;
-    grid-template-columns: repeat(7, 1fr); /* 7 columns */
-    gap: 5px; /* Reduce space between days */
-    font-size: 12px; 
-  
-}
-
-.calendar-day {
-    padding: 5px;
-    border-radius: 5px;
-    background: #f8f8f8;
-}
-
-.time-slots {
-    font-size: 10px; 
-    padding: 5px;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
     margin-top: 10px;
 }
-.bbbot{
-  position: absolute;
-  display: grid;
-  align-self: flex-end;
-  margin-left: 56%;
-  width: 30%;
+
+.day {
+    font-weight: bold;
 }
+
+.date {
+    display: block;
+    background: #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.date:hover {
+    background:  #696a6a;
+    color: white;
+}
+
+/* Selected Date */
+input[name="date"]:checked + .book-btn {
+  background: #696a6a;
+  color: white;
+}
+input[name="date"]:checked ~ .book-btn:hover {
+  background: #333;
+}
+
+.book-btn  {
+   display: grid;
+   position: absolute;
+    margin-top:400px;
+    margin-left: 28%;
+    padding: 10px;
+    width: 30%;
+    background: rgb(117, 113, 113);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+    font-size: 16px;
+    transition: 0.3 ease;
+}
+.book-btn :hover {
+  background: var(--grey);
+  color: var(--white);
+}
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .calendar-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+  
+  

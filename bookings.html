@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookings page</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-    />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./bookings.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookings page</title>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./bookings.css">
 </head>
+
 <body>
   <header>
     <a href="#" class="logo">The<span>Luxe Label</span></a>
     <ul class="navbar">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./product.html">Product</a></li>
-        <li><a href="./team.html">Team</a></li>
-        <li><a href="./events.html">Event</a></li>
-        <li><a href="./bookings.html">Bookings</a></li>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./product.html">Product</a></li>
+      <li><a href="./team.html">Team</a></li>
+      <li><a href="./events.html">Event</a></li>
+      <li><a href="./bookings.html">Bookings</a></li>
     </ul>
 
     <div class="h-icons">
@@ -33,82 +32,115 @@
     <h2>Book Luxe Experience</h2>
     <h3>Personalised fashion services tailored just for you. Schedule an appointment.</h3>
   </div>
-<div class="backgroundimage">
-  <div class="transbackground">
-    <div class="content">
-      <form >
-       <div class="inputgroup">
-         <input type="text" placeholder="   Name:">
-         <input type="text" placeholder="   E-mail:">
-         <input type="text" placeholder="   Contact:">
-         <select name="   Application Options" id="service">
-           <option value="" disabled selected>Application Options</option>
-           <option value="Pss">Personal Styling Session</option>
-           <option value="CF">Custom Fitting</option>
-           <option value="VSE">VIP Shopping Experience</option>
-           <option value="ECI">Event Collaboration Inquiry</option>
-         </select>
-       </div>
-      </form>
-      <div class="container">
-        <div class="calendar-container">
-          <div class="calendar-header">AVAILABLE SLOTS</div>
-          <div class="calendar-grid">
-              <div class="calendar-day">Mon</div>
-              <div class="calendar-day">Tue</div>
-              <div class="calendar-day">Wed</div>
-              <div class="calendar-day">Thu</div>
-              <div class="calendar-day">Fri</div>
-              <div class="calendar-day">Sat</div>
-              <div class="calendar-day">Sun</div>
-              
-              <div class="calendar-day">31</div>
-              <div class="calendar-day">1</div>
-              <div class="calendar-day">2</div>
-              <div class="calendar-day">3</div>
-              <div class="calendar-day">4</div>
-              <div class="calendar-day">5</div>
-              <div class="calendar-day">6</div>
-      
-              <div class="calendar-day">7</div>
-              <div class="calendar-day">8</div>
-              <div class="calendar-day">9</div>
-              <div class="calendar-day">10</div>
-              <div class="calendar-day">11</div>
-              <div class="calendar-day">12</div>
-              <div class="calendar-day">13</div>
-      
-              <div class="calendar-day">14</div>
-              <div class="calendar-day">15</div>
-              <div class="calendar-day">16</div>
-              <div class="calendar-day">17</div>
-              <div class="calendar-day">18</div>
-              <div class="calendar-day">19</div>
-              <div class="calendar-day">20</div>
-      
-              <div class="calendar-day">21</div>
-              <div class="calendar-day">22</div>
-              <div class="calendar-day">23</div>
-              <div class="calendar-day">24</div>
-              <div class="calendar-day">25</div>
-              <div class="calendar-day">26</div>
-              <div class="calendar-day">27</div>
-      
-              <div class="calendar-day">28</div>
-              <div class="calendar-day">29</div>
-              <div class="calendar-day">30</div>
+  <div class="backgroundimage">
+    <div class="transbackground">
+      <div class="content">
+        <form>
+          <div class="inputgroup">
+            <input type="text" placeholder="  Name:">
+            <input type="text" placeholder="  E-mail:">
+            <input type="text" placeholder="  Contact:">
+            <select name="   Application Options" id="service">
+              <option value="" disabled selected>Application Options</option>
+              <option value="Pss">Personal Styling Session</option>
+              <option value="CF">Custom Fitting</option>
+              <option value="VSE">VIP Shopping Experience</option>
+              <option value="ECI">Event Collaboration Inquiry</option>
+            </select>
           </div>
-          <div class="time-slots">
-              <p>9:00am - 2:00pm | 10:00am - 3:00pm | 11:00am - 4:00pm</p>
-              <p>12:00pm - 5:00pm | 1:00pm - 6:00pm</p>
-          </div>
-      </div>
-  </div>
-  <button class="bbbot"> Book Now</button>
-</div>
+        </form>
+        <div class="container">
+          <div class="calendar-container">
+            <div class="calendar-header">AVAILABLE SLOTS</div>
+            <div class="calendar-grid">
+              <div class="day">Mon</div>
+              <div class="day">Tue</div>
+              <div class="day">Wed</div>
+              <div class="day">Thu</div>
+              <div class="day">Fri</div>
+              <div class="day">Sat</div>
+              <div class="day">Sun</div>
 
- 
-  <!-- custom js link -->
-  <script type="text/javascript" src="index.js"></script>
+              <!-- Dates as radio buttons -->
+              <input type="radio" name="date" id="date1" hidden>
+              <label for="date1" class="date">1</label>
+
+              <input type="radio" name="date" id="date2" hidden>
+              <label for="date2" class="date">2</label>
+
+              <input type="radio" name="date" id="date3" hidden>
+              <label for="date3" class="date">3</label>
+
+              <input type="radio" name="date" id="date4" hidden>
+              <label for="date4" class="date">4</label>
+
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">5</label>
+
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">6</label>
+
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">7</label>
+
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">8</label>
+              
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">9</label>
+
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">10</label>
+              
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">11</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">12</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">13</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">14</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">15</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">16</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">17</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">18</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">19</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">20</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">21</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">22</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">23</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">24</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">25</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">26</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">27</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">28</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">29</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">30</label>
+              <input type="radio" name="date" id="date5" hidden>
+              <label for="date5" class="date">31</label>
+            </div>
+          </div>
+          <button class="book-btn">Book Now</button>
+
+
+      <!-- custom js link -->
+      <script type="text/javascript" src="index.js"></script>
 </body>
+
 </html>
