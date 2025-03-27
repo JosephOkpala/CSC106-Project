@@ -252,6 +252,12 @@ section{
 	line-height: 30px;
 	margin-bottom: 15px;
 }
+
+.row img {
+	border: 2px solid blue;
+	width: 360px;
+	height: 450px;
+}
 .star i{
 	color: var(--main-color);
 	font-size: 17px;
