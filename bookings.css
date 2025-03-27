@@ -51,6 +51,7 @@ body{
     border-radius: 30px;
     border: none;
     margin-top: 30px;
+    padding-left: 0.3rem;
   }
   .frm{
     display: flex;
