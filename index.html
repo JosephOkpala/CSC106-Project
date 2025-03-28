@@ -15,6 +15,57 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      /* Countdown Timer Styling */
+      .countdown {
+        text-align: center;
+        margin: 20px 0;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #1a1a1a; /* Optional: Add a background color for better visibility */
+        padding: 20px;
+        width: 100%; /* Ensure the countdown section fills the width of the page */
+        box-sizing: border-box; /* Include padding in the width calculation */
+      }
+
+      #timer {
+        display: flex;
+        justify-content: space-evenly; /* Spread the time boxes evenly across the width */
+        align-items: center;
+        width: 100%; /* Make the timer fill the width of the page */
+        margin: 0; /* Remove any default margin */
+        padding: 0 10px; /* Add some padding for spacing */
+        box-sizing: border-box; /* Include padding in the width calculation */
+      }
+
+      .time-box {
+        background-color: white;
+        color: #333;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        flex: 1; /* Allow the time boxes to grow and fill the space */
+        margin: 0 10px; /* Add spacing between the boxes */
+        max-width: 150px; /* Optional: Limit the maximum width of each time box */
+      }
+
+      .time-box span {
+        font-size: 2rem;
+        font-weight: bold;
+        display: block;
+      }
+
+      .time-box p {
+        font-size: 0.8rem;
+        margin: 0;
+      }
+
+      .colon {
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <!-- header section -->
@@ -22,7 +73,7 @@
       <a href="#" class="logo">The<span>Luxe Label</span></a>
       <ul class="navbar">
           <li><a href="./index.html">Home</a></li>
-          <li><a href="./product.html">Product</a></li>
+          <li><a href="./product.html">Product</a></li>              
           <li><a href="./team.html">Team</a></li>
           <li><a href="./events.html">Event</a></li>
           <li><a href="./bookings.html">Bookings</a></li>
@@ -30,7 +81,7 @@
 
       <div class="h-icons">
         <a href="#"><i class="bx bx-search"></i></a>
-        <a href="#"><i class="bx bx-cart"></i></a>
+        <a href="cart.html"><i class="bx bx-cart"></i></a>
         <div class="bx bx-menu" id="menu-icon"></div>
       </div>
     </header>
@@ -60,62 +111,90 @@
     </section>
 
     <section class="pproducts">
-		<div class="main-text2">
-			<h2>STYLE GALLERY</h2>
-		</div>
+		  <div class="main-text2">
+			  <h2>Style Gallery</h2>
+		  </div>
 
-	  <div class="pproductlinks">
-      <div class="cmen">
-        <a href="./product.html#cmen">
-          <img src="./COS106/Images/men1 1.png" alt="" />
-          <p><strong>Classic Men Wears</strong></p>
-        </a>
-      </div>
+	    <div class="pproductlinks">
+        <div class="cmen">
+          <a href="./product.html#cmen">
+            <img src="./COS106/Images/men1 1.png" alt="" />
+            <p><strong>Classic Men Wears</strong></p>
+          </a>
+        </div>
 
-      <div class="swomen">
-        <a href="./product.html#swomen">
-          <img src="./COS106/Images/front f1 1.png" alt="" />
-          <p><strong>Women's Silk Dress</strong></p>
-        </a>
-      </div>
+        <div class="swomen">
+          <a href="./product.html#swomen">
+            <img src="./COS106/Images/front f1 1.png" alt="" />
+            <p><strong>Women's Silk Dress</strong></p>
+          </a>
+        </div>
 
-      <div class="fwomen">
-        <a href="./product.html#fwomen">
-          <img src="./COS106/Images/fnt_t 1.png" alt="" />
-          <p><strong>Women's Full Set</strong></p>
-        </a>
-      </div>
+        <div class="fwomen">
+          <a href="./product.html#fwomen">
+            <img src="./COS106/Images/fnt_t 1.png" alt="" />
+            <p><strong>Women's Full Set</strong></p>
+          </a>
+        </div>
 
-      <div class="shortwomen">
-        <a href="./product.html#shortwomen">
-          <img src="./COS106/Images/short 1.png" alt="" />
-          <p><strong>Women short Dress</strong></p>
-        </a>
-      </div>
+        <div class="shortwomen">
+          <a href="./product.html#shortwomen">
+            <img src="./COS106/Images/short 1.png" alt="" />
+            <p><strong>Women short Dress</strong></p>
+          </a>
+        </div>
 
-      <div class="Menf">
-        <a href="./product.html#Menf">
-          <img src="./COS106/Images/men_ac4-removebg- 1.png" alt="" />
-          <p><strong>Men's Full set</strong></p>
-        </a>
-      </div>
+        <div class="Menf">
+          <a href="./product.html#Menf">
+            <img src="./COS106/Images/men_ac4-removebg- 1.png" alt="" />
+            <p><strong>Men's Full set</strong></p>
+          </a>
+        </div>
 
-      <div class="womenA">
-        <a href="./product.html#womenA">
-          <img src="./COS106/Images/women_ac_front-removebg- 1.png" alt="" />
-          <p><strong>Women Accessories</strong></p>
-        </a>
+        <div class="womenA">
+          <a href="./product.html#womenA">
+            <img src="./COS106/Images/women_ac_front-removebg- 1.png" alt="" />
+            <p><strong>Women Accessories</strong></p>
+          </a>
+        </div>
+	    </div>
+    </section>
+
+    <!-- countdown section -->
+    <section class="countdown">
+      <h2>Exclusive Offer Ends Soon!</h2>
+      <p>Don't miss out on our limited-time offer. Grab your favorite items now!</p>
+      <div id="timer">
+        <div class="time-box">
+          <span id="days">00</span>
+          <p>Days</p>
+        </div>
+        <span class="colon">:</span>
+        <div class="time-box">
+          <span id="hours">00</span>
+          <p>Hours</p>
+        </div>
+        <span class="colon">:</span>
+        <div class="time-box">
+          <span id="minutes">00</span>
+          <p>Minutes</p>
+        </div>
+        <span class="colon">:</span>
+        <div class="time-box">
+          <span id="seconds">00</span>
+          <p>Seconds</p>
+        </div>
       </div>
-	</div>
+      <a href="/product.html" class="btn">Buy Now</a>
     </section>
 
     <!---product section--->
     <section class="product" id="product">
       <div class="main-text">
-        <h2>BEST SELLERS</h2>
+        <h2>Best Sellers</h2>
         <p>
-          Consectetur numquam poro nemo veniam <br />
-          eligendi rem adipisci quo modi.
+          🛒Check out our bestsellers<br />
+          grab yours now before they are gone🛍️ 
         </p>
       </div>
 
@@ -123,7 +202,7 @@
         <div class="row">
           <!-- <img src="./COS 106/Images/gown/white short simple sleeveless gown.png"> -->
           <img
-            src="./COS106/Images/gown/white short simple sleeveless gown.png"
+            src="./COS106/Images/FEMALE FULL SET/trouser_and_pant_with_silk_vest-removebg-preview.png"
             alt=""
           />
           <div class="product-text">
@@ -167,7 +246,7 @@
         </div>
 
         <div class="row">
-          <img src="./COS106/Images/gown/white beautiful short gown.png" />
+          <img src="./COS106/Images/Old Money/6707cb83-0015-4a1a-8627-1a50dce9c4b1-removebg-preview.png" />
           <div class="product-text">
             <div class="product-left">
               <h4>White collared short gown</h4>
@@ -186,34 +265,44 @@
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <img
-            src="./COS106/Images/gown/white short simple sleeveless gown.png"
-          />
-          <div class="product-text">
-            <div class="product-left">
-              <h4>White short sleeve gown</h4>
-            </div>
-            <div class="product-right">
-              <h5>$380</h5>
-            </div>
-          </div>
-          <p>Female</p>
-          <div class="cart">
-            <div class="c-icons-left">
-              <h4>Add to cart</h4>
-            </div>
-            <div class="c-icons-right">
-              <a href="#"><i class="bx bx-cart"></i></a>
-            </div>
-          </div>
-        </div>
       </div>
-      <br /><br /><br />
+    <br /><br /><br />
 
     
     </section>
+
+
+    <!---footer section--->
+	<section class="footer">
+		<div class="main-footer">
+      <div class="footer-content">
+        <a href="#" class="logo">The<span>Luxe Label</span></a>
+			</div>
+
+			<div class="footer-content">
+				<h4>Quick link</h4>
+				<li><a href="index.html">Home</a></li>
+			  <li><a href="product.html">Product</a></li>
+			  <li><a href="bookings.html">Bookings</a></li>
+			  <li><a href="cart.html">Cart</a></li>
+			</div>
+
+			<div class="footer-content">
+				<h4>Shop Address</h4>
+				<li><a href="#home">575, Madison Avenue <br> New york, NY 10022 USA</a></li>
+			</div>
+
+			<div class="footer-content">
+				<h4>Contact</h4>
+			  <li><a href="#contact"> 01-222-333</a></li>
+			</div>
+
+		</div>
+	</section>
+
+	<div class="last-text">
+		<p>© 2025 The Luxe Label. All Rights Reserved by CSC 106 Group 2</p>
+	</div>
 
     <!---scroll top--->
     <a href="#home" class="scroll-top">

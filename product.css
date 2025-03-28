@@ -50,14 +50,13 @@
     margin: 1rem;
   }
   
-  .img {
-    width: 210px;
+  .row .img {
+    width: 225px;
     height: 303px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 0.5rem;
+	  border-radius: 10px;
+	  margin: auto;
+	  display: flex;
+	  justify-content: center;
   }
   
   .card p {
@@ -84,3 +83,61 @@
     height: 2rem;
     padding: 0.5rem 0 0 0;
   }
+
+  .bookSpot {
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }  
+
+  .successMessageContainer {
+  visibility: hidden;
+  border-radius: 20px;
+  background-color: white;
+  padding: 2rem 1rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 0px 0px 400px 111px rgba(186, 186, 186, 0.75);
+  z-index: 9999;
+}
+
+.bookSpot:hover {
+  background-color: black;
+  color: white;
+}
+
+.successMessageContainer.visible {
+  visibility: visible;
+}
+
+.successMessageContainer img {
+  margin-bottom: 1rem;
+}
+
+.successMessageContainer h5 {
+  width: 450px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.successMessageContainer p {
+  font-size: 1.1rem;
+}
+
+#myBtn:disabled {
+  background-color: grey;
+  color: white;
+  cursor: not-allowed;
+}
+
+#btnTwo:disabled {
+  background-color: grey;
+  color: white;
+  cursor: not-allowed;
+}

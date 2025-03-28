@@ -1,7 +1,6 @@
-
 .events {
   padding-top: 120px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .events h2 {
@@ -106,9 +105,46 @@
   color: white;
 }
 
+/* footer */
+/* .footer{
+	background-color: black;
+}
+.main-footer{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+	gap: 2rem;
+}
+.footer-content h4{
+	font-size: 20px;
+	color: white;
+	margin-bottom: 1.5rem;
+}
+.footer-content a{
+	color: #fff;
+}
+.footer-content li{
+	margin-bottom: 16px;
+}
+.footer-content li a{
+	display: block;
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+	transition: all .38s ease;
+}
+.footer-content li a:hover{
+	transform: translateX(10px);
+	color: var(--main-color);
+}
+.last-text p{
+	text-align: center;
+	padding: 25px;
+	color: var(--text-color);
+	font-size: 15px;
+	letter-spacing: 1px;
+} */
 
 @media screen and (max-width: 768px) {
-
   .events h2 {
     font-size: 1.6rem;
     margin-bottom: 2rem;
@@ -131,7 +167,7 @@
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   .firstEvent div h4 {
     font-size: 1.2rem;
   }
@@ -139,4 +175,54 @@
   .secondEvent div h4 {
     font-size: 1.2rem;
   }
+}
+
+/*            success message style            */
+
+.firstEvent {
+  position: relative;
+}
+
+.successMessageContainer {
+  visibility: hidden;
+  border-radius: 20px;
+  background-color: white;
+  padding: 2rem 1rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 0px 0px 400px 111px rgba(186, 186, 186, 0.75);
+  z-index: 9999;
+}
+
+.successMessageContainer.visible {
+  visibility: visible;
+}
+
+.successMessageContainer img {
+  margin-bottom: 1rem;
+}
+
+.successMessageContainer h5 {
+  width: 450px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.successMessageContainer p {
+  font-size: 1.1rem;
+}
+
+#myBtn:disabled {
+  background-color: grey;
+  color: white;
+  cursor: not-allowed;
+}
+
+#btnTwo:disabled {
+  background-color: grey;
+  color: white;
+  cursor: not-allowed;
 }
