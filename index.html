@@ -15,6 +15,57 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      /* Countdown Timer Styling */
+      .countdown {
+        text-align: center;
+        margin: 20px 0;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #1a1a1a; /* Optional: Add a background color for better visibility */
+        padding: 20px;
+        width: 100%; /* Ensure the countdown section fills the width of the page */
+        box-sizing: border-box; /* Include padding in the width calculation */
+      }
+
+      #timer {
+        display: flex;
+        justify-content: space-evenly; /* Spread the time boxes evenly across the width */
+        align-items: center;
+        width: 100%; /* Make the timer fill the width of the page */
+        margin: 0; /* Remove any default margin */
+        padding: 0 10px; /* Add some padding for spacing */
+        box-sizing: border-box; /* Include padding in the width calculation */
+      }
+
+      .time-box {
+        background-color: white;
+        color: #333;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        flex: 1; /* Allow the time boxes to grow and fill the space */
+        margin: 0 10px; /* Add spacing between the boxes */
+        max-width: 150px; /* Optional: Limit the maximum width of each time box */
+      }
+
+      .time-box span {
+        font-size: 2rem;
+        font-weight: bold;
+        display: block;
+      }
+
+      .time-box p {
+        font-size: 0.8rem;
+        margin: 0;
+      }
+
+      .colon {
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <!-- header section -->
@@ -107,6 +158,34 @@
           </a>
         </div>
 	    </div>
+    </section>
+
+    <!-- countdown section -->
+    <section class="countdown">
+      <h2>Exclusive Offer Ends Soon!</h2>
+      <p>Don't miss out on our limited-time offer. Grab your favorite items now!</p>
+      <div id="timer">
+        <div class="time-box">
+          <span id="days">00</span>
+          <p>Days</p>
+        </div>
+        <span class="colon">:</span>
+        <div class="time-box">
+          <span id="hours">00</span>
+          <p>Hours</p>
+        </div>
+        <span class="colon">:</span>
+        <div class="time-box">
+          <span id="minutes">00</span>
+          <p>Minutes</p>
+        </div>
+        <span class="colon">:</span>
+        <div class="time-box">
+          <span id="seconds">00</span>
+          <p>Seconds</p>
+        </div>
+      </div>
+      <a href="/product.html" class="btn">Buy Now</a>
     </section>
 
     <!---product section--->

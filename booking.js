@@ -55,7 +55,10 @@ document.addEventListener("DOMContentLoaded", function () {
             serviceError.style.display="none";
          }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ebf04a03b2eba933f450a6c29679d7c75f5953ed
          button.addEventListener("click", event =>{
             if(successMessage.classList.contains("visible")){
                 successMessage.classList.remove("visible")
@@ -71,8 +74,11 @@ document.addEventListener("DOMContentLoaded", function () {
             setTimeout(() =>{
                 button.disabled = false;
             }, 3500)
+<<<<<<< HEAD
 
             
+=======
+>>>>>>> ebf04a03b2eba933f450a6c29679d7c75f5953ed
         })
     });
 
