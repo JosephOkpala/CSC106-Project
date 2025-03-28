@@ -38,19 +38,14 @@
       <div class="content">
         <form id="frm" class="frm">
           <div class="inputgroup">
-            <input type="text" placeholder="  Name:">
-            <p id="NameError" class="error"></p>
-            <input type="text" placeholder="  E-mail:">
-<<<<<<< HEAD
-            <p id="emailError" class="error"></p>
-            <input type="number" placeholder="  Contact:">
-            <p id="contactError" class="error"></p>
+            <input id="nameInput" type="text" placeholder="  Name:">
+            <p id="nameError" class="error" style="display: none; color: red;"></p>
+            <input id="emailInput" type="text" placeholder="  E-mail:">
+            <p id="emailError" style="display: none; color: red;"></p>
+            <input id="contactInput" type="text" placeholder="  Contact:">
+            <p id="contactError" style="display: none; color: red;" ></p>
             <select name="Application Options" id="service">
-              <p id="chooseOptions" class="error"></p>
-=======
-            <input type="text" placeholder="  Contact:">
-            <select name="Application Options" id="service">
->>>>>>> b859c1e5381250d2db25a8f470d4083c3f1bf4ce
+            <p id="serviceError" style="display: none; color: red;"></p>
               <option value="" disabled selected>Application Options</option>
               <option value="Pss">Personal Styling Session</option>
               <option value="CF">Custom Fitting</option>
@@ -135,11 +130,7 @@
                 <label for="date31" class="date">31</label>
               </div>
             </div>
-<<<<<<< HEAD
-            <button id="button" type="submit" class="book-btn" >Book Now</button>
-=======
-            <button id="bookbtn" type="button" class="book-btn" >Book Now</button>
->>>>>>> b859c1e5381250d2db25a8f470d4083c3f1bf4ce
+            <button id="bookbtn" type="submit" class="book-btn" >Book Now</button>
           </div>
         </form>
         <div id="successMessage" class="successMessageContainer">
@@ -150,7 +141,7 @@
 
       <!-- custom js link -->
       <script type="text/javascript" src="index.js"></script>
-      <script src="./bookings.js"></script>
+      <script src="./booking.js"></script>
 </body>
 
 </html>
