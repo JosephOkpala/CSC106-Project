@@ -42,7 +42,7 @@ body{
   }
   .inputgroup {
     display: grid;
-    gap: 30px;
+    gap: 5px;
   }
   
   input, select {
@@ -50,7 +50,7 @@ body{
     height: 50px;
     border-radius: 30px;
     border: none;
-    margin-top: 30px;
+    margin-top: 10px;
     padding-left: 0.3rem;
   }
   .frm{
@@ -127,8 +127,10 @@ body{
     display: grid;
     position: relative;
     margin: 20px auto;
+    margin-top: 398px;
+    margin-left: 300px;
     padding: 10px;
-    width: 50%;
+    width: 60%;
     background: rgb(117, 113, 113);
     color: white;
     border: none;
@@ -154,7 +156,22 @@ body{
     .calendar-grid {
       grid-template-columns: repeat(3, 1fr);
     }
+    .content{
+      display: grid;
+      grid-template-rows: (1,1fr);
+    }
+    .backgroundimage{
+      background-size: contain;
+      width: 4000px;
+      height: 900px;
+      background-repeat: no-repeat;
+    }
+    .calendar-container{
+      width: 100px;
+      margin-left: 0%;
+    }
   }
+  
   
   .successMessageContainer {
     visibility: hidden;
