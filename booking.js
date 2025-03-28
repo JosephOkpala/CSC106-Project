@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
             serviceError.style.display="none";
          }
 
+
          button.addEventListener("click", event =>{
             if(successMessage.classList.contains("visible")){
                 successMessage.classList.remove("visible")
@@ -70,6 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
             setTimeout(() =>{
                 button.disabled = false;
             }, 3500)
+
+            
         })
     });
 
