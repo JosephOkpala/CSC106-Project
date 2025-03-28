@@ -38,10 +38,14 @@
       <div class="content">
         <form id="frm" class="frm">
           <div class="inputgroup">
-            <input type="text" placeholder="  Name:">
-            <input type="text" placeholder="  E-mail:">
-            <input type="text" placeholder="  Contact:">
+            <input id="nameInput" type="text" placeholder="  Name:">
+            <p id="nameError" class="error" style="display: none; color: red;"></p>
+            <input id="emailInput" type="text" placeholder="  E-mail:">
+            <p id="emailError" style="display: none; color: red;"></p>
+            <input id="contactInput" type="text" placeholder="  Contact:">
+            <p id="contactError" style="display: none; color: red;" ></p>
             <select name="Application Options" id="service">
+            <p id="serviceError" style="display: none; color: red;"></p>
               <option value="" disabled selected>Application Options</option>
               <option value="Pss">Personal Styling Session</option>
               <option value="CF">Custom Fitting</option>
@@ -126,7 +130,7 @@
                 <label for="date31" class="date">31</label>
               </div>
             </div>
-            <button id="bookbtn" type="button" class="book-btn" >Book Now</button>
+            <button id="bookbtn" type="submit" class="book-btn" >Book Now</button>
           </div>
         </form>
         <div id="successMessage" class="successMessageContainer">
@@ -137,6 +141,7 @@
 
       <!-- custom js link -->
       <script type="text/javascript" src="index.js"></script>
+      <script src="./booking.js"></script>
 </body>
 
 </html>
