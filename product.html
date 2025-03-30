@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="mediaproduct.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
@@ -51,18 +52,20 @@
           </div>
         </div>
         <p>Male</p>
-        <div id="myBtn" class="cart" class="bookSpot">
+        <div class="cart" id="cart">
           <div class="c-icons-left">
-            <h4>ADD TO CART</h4>
+              <h4>ADD TO CART</h4>
+          </div>
+          <div class="c-icons-right">
+              <a href="#"><i class="bx bx-cart"></i></a>
+          </div>
         </div>
-        <div class="c-icons-right">
-          <a href="#"><i class="bx bx-cart"></i></a>
-          </div> 
-        </div>
-        <div id="successMessage" class="successMessageContainer">
-          <img src="./COS106/Images/success.png" alt="">
-          <h5>You have successfully reserved a spot at our next event</h5>
-          <p>See you there !</p>
+      
+        <div id="item" >
+          <img class="bag" src="./COS106/shopping bag.png" alt=" " >
+          <p>You have successfully added this item to your cart<br> 
+          <a href="cart.html">Click to view Item in cart</a>
+          </p>
         </div>
       </div>
 
@@ -89,6 +92,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <img
           src="./COS106/Images/classic men/50d674b1-e4d8-46a8-bf21-2af991836656-removebg-preview.png"
@@ -112,6 +116,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <img
           src="./COS106/Images/classic men/1e94fb73-f26a-434e-80af-723bae42397c-removebg-preview.png"
@@ -158,7 +163,7 @@
       </div>
 
       <div class="row">
-        <img src="COS106/Images/male vest.png" class="img"/>
+        <img src="COS106/Images/classic men/male_vest-removebg-preview.png" class="img"/>
         <div class="product-text">
           <div class="product-left">
             <h4>White collared short gown</h4>
@@ -2050,7 +2055,5 @@ if (cart.length === 0) {
   });
 }
 </script>
-
-    <script src="event.js"></script>
 </body>
 </html>
