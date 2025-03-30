@@ -40,6 +40,7 @@
   /* Product sections */
   .psection {
     margin: 3rem 0;
+    position: relative;
   }
 
   /* Individual product */
@@ -84,60 +85,48 @@
     padding: 0.5rem 0 0 0;
   }
 
-  .bookSpot {
-    padding: 1rem 2rem;
-    border: 1px solid black;
-    color: black;
-    background-color: white;
+  #item {
+    visibility: hidden;
     cursor: pointer;
-    transition: 0.3s ease;
-  }  
-
-  .successMessageContainer {
-  visibility: hidden;
-  border-radius: 20px;
-  background-color: white;
-  padding: 2rem 1rem;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  box-shadow: 0px 0px 400px 111px rgba(186, 186, 186, 0.75);
-  z-index: 9999;
+    background-color: #ffffff;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+    padding: 1rem 3rem;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 400px 111px rgba(186, 186, 186, 0.75);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    text-align: center;
 }
+  
 
-.bookSpot:hover {
-  background-color: black;
-  color: white;
-}
+  .item p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #000000;
+  }
 
-.successMessageContainer.visible {
-  visibility: visible;
-}
-
-.successMessageContainer img {
-  margin-bottom: 1rem;
-}
-
-.successMessageContainer h5 {
-  width: 450px;
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-}
-
-.successMessageContainer p {
-  font-size: 1.1rem;
-}
-
-#myBtn:disabled {
-  background-color: grey;
-  color: white;
-  cursor: not-allowed;
-}
-
-#btnTwo:disabled {
-  background-color: grey;
-  color: white;
-  cursor: not-allowed;
-}
+  .item p a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .bag {
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
