@@ -85,43 +85,7 @@
     padding: 0.5rem 0 0 0;
   }
 
-  #item {
-    visibility: hidden;
-    cursor: pointer;
-    background-color: #ffffff;
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    border-radius: 20px;
-    padding: 1rem 3rem;
-    position: fixed;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 400px 111px rgba(186, 186, 186, 0.75);
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-    text-align: center;
-}
   
-
-  .item p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    color: #000000;
-  }
-
-  .item p a {
-    text-decoration: none;
-    color: #000000;
-  }
   .bag {
     max-width: 100px;
     max-height: 100px;
@@ -130,3 +94,34 @@
     align-items: center;
     margin: auto;
   }
+  
+  .bag img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+.successMessageContainer {
+  visibility: hidden;
+  border-radius: 20px;
+  background-color: white;
+  width: 350px;
+  margin: auto;
+  padding: 2rem 1rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 0px 0px 400px 111px rgba(186, 186, 186, 0.75);
+  z-index: 9999;
+}
+
+.successMessageContainer.visible {
+  visibility: visible;
+}
+
+.successMessageContainer img {
+  margin-bottom: 1rem;
+}
+
