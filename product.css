@@ -40,6 +40,7 @@
   /* Product sections */
   .psection {
     margin: 3rem 0;
+    position: relative;
   }
 
   /* Individual product */
@@ -83,3 +84,40 @@
     height: 2rem;
     padding: 0.5rem 0 0 0;
   }
+
+  
+  .bag {
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  
+  
+.successMessageContainer {
+  visibility: hidden;
+  border-radius: 20px;
+  background-color: white;
+  width: 350px;
+  margin: auto;
+  padding: 2rem 1rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 0px 0px 400px 111px rgba(186, 186, 186, 0.75);
+  z-index: 9999;
+}
+
+.successMessageContainer.visible {
+  visibility: visible;
+}
+
+.successMessageContainer img {
+  margin-bottom: 1rem;
+}
+
